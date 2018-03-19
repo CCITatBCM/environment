@@ -7,5 +7,4 @@ RUN apt-get update -y && \
     apt install -y python3-pip && \
     apt install -y jq && \
     pip3 install --upgrade --user virtualenv==15.1.0 && \
-    ~/.local/bin/virtualenv --python=python3 ve && \
-    pip3 install --upgrade awscli
+    ~/.local/bin/virtualenv --python=python3 ve
